@@ -17,7 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 
-- [C,D] Updated Substrate to polkadot-v0.9.33
+- [C,D] Updated Substrate to polkadot-v0.9.33-wasmi-exp
 
 ## [4.8.3]
 

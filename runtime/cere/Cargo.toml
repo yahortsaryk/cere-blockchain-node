@@ -20,75 +20,75 @@ scale-info = { version = "2.1.2", default-features = false, features = ["derive"
 static_assertions = "1.1.0"
 
 # primitives
-node-primitives = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-authority-discovery = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-block-builder = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33", default-features = false, version = "4.0.0-dev" }
-sp-consensus-babe = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-core = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-inherents = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-io = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-offchain = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-runtime = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-session = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-staking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-std = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-transaction-pool = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-sp-version = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
+node-primitives = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-authority-discovery = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-block-builder = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp", default-features = false, version = "4.0.0-dev" }
+sp-consensus-babe = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-core = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-inherents = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-io = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-offchain = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-runtime = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-session = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-staking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-std = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-transaction-pool = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+sp-version = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
 
 # frame dependencies
-frame-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33", optional = true }
-frame-election-provider-support = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-frame-executive = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-frame-support = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-frame-system = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-frame-system-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33", optional = true }
-frame-system-rpc-runtime-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-frame-try-runtime = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33", optional = true }
-pallet-authority-discovery = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-authorship = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-babe = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-bags-list = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-balances = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-bounties = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
+frame-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp", optional = true }
+frame-election-provider-support = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+frame-executive = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+frame-support = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+frame-system = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+frame-system-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp", optional = true }
+frame-system-rpc-runtime-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+frame-try-runtime = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp", optional = true }
+pallet-authority-discovery = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-authorship = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-babe = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-bags-list = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-balances = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-bounties = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
 pallet-chainbridge = { version = "4.8.4", default-features = false, path = "../../pallets/chainbridge" }
-pallet-child-bounties = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-collective = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-contracts = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-contracts-primitives = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-democracy = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-election-provider-multi-phase = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-election-provider-support-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33", optional = true }
-pallet-elections-phragmen = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-fast-unstake = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, branch = "polkadot-v0.9.33" }
-pallet-grandpa = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-identity = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-im-online = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-indices = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-membership = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-multisig = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-nomination-pools = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, branch = "polkadot-v0.9.33" }
-pallet-nomination-pools-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, optional = true, branch = "polkadot-v0.9.33" }
-pallet-nomination-pools-runtime-api = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, branch = "polkadot-v0.9.33" }
-pallet-offences = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-offences-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33", default-features = false, optional = true }
-pallet-proxy = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-randomness-collective-flip = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-recovery = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-scheduler = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-session = { features = ["historical"], git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33", default-features = false }
-pallet-session-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33", default-features = false, optional = true }
-pallet-society = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-staking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-staking-reward-curve = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-sudo = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-timestamp = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-tips = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-transaction-payment = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-transaction-payment-rpc-runtime-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-treasury = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-utility = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
-pallet-vesting = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
+pallet-child-bounties = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-collective = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-contracts = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-contracts-primitives = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-democracy = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-election-provider-multi-phase = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-election-provider-support-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp", optional = true }
+pallet-elections-phragmen = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-fast-unstake = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-grandpa = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-identity = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-im-online = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-indices = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-membership = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-multisig = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-nomination-pools = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-nomination-pools-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, optional = true, branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-nomination-pools-runtime-api = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-offences = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-offences-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp", default-features = false, optional = true }
+pallet-proxy = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-randomness-collective-flip = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-recovery = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-scheduler = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-session = { features = ["historical"], git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp", default-features = false }
+pallet-session-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp", default-features = false, optional = true }
+pallet-society = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-staking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-staking-reward-curve = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-sudo = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-timestamp = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-tips = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-transaction-payment = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-transaction-payment-rpc-runtime-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-treasury = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-utility = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+pallet-vesting = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
 
 # cere dependencies
 cere-runtime-common = { path = "../common", default-features = false }
@@ -103,7 +103,7 @@ pallet-erc20 = { version = "4.8.4", default-features = false, path = "../../pall
 pallet-erc721 = { version = "4.8.4", default-features = false, path = "../../pallets/erc721" }
 
 [build-dependencies]
-substrate-wasm-builder = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
+substrate-wasm-builder = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
 
 [features]
 default = ["std"]

@@ -11,10 +11,10 @@ license = "GPL-3.0-or-later WITH Classpath-exception-2.0"
 
 [dependencies]
 cere-cli = { path = "cli", features = ["cere-dev-native"] }
-sc-cli = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
+sc-cli = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
 
 [build-dependencies]
-substrate-build-script-utils = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33" }
+substrate-build-script-utils = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
 
 [workspace]
 members = [
