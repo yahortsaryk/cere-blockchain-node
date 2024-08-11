@@ -5,12 +5,12 @@ edition = "2021"
 
 [dependencies]
 # Substrate
-frame-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp", optional = true }
-frame-support = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-frame-system = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-io = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-runtime = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-std = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+frame-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c", optional = true }
+frame-support = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+frame-system = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-io = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-runtime = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-std = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
 
 # 3rd Party
 codec = { package = "parity-scale-codec", version = "3.0.0", default-features = false, features = ["derive"] }
@@ -23,13 +23,13 @@ ddc-primitives = { version = "4.8.4", default-features = false, path = "../../pr
 ddc-traits = { version = "4.8.4", default-features = false, path = "../../traits" }
 
 [dev-dependencies]
-frame-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-pallet-balances = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-pallet-timestamp = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-core = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-io = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-tracing = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-substrate-test-utils = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+frame-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+pallet-balances = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+pallet-timestamp = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-core = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-io = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-tracing = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+substrate-test-utils = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
 
 [features]
 default = ["std"]

@@ -9,37 +9,37 @@ jsonrpsee = { version = "0.15.1", features = ["server"] }
 rand = "0.8"
 serde = { version = "1.0.136", features = ["derive"] }
 
-node-primitives = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-pallet-im-online = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-authority-discovery = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-basic-authorship = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-chain-spec = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-client-api = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-consensus = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-consensus-babe = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-consensus-slots = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-consensus-uncles = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-executor = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-finality-grandpa = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-network = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-network-common = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-rpc = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-service = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-sync-state-rpc = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-sysinfo = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-telemetry = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sc-transaction-pool = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-api = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-authority-discovery = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-authorship = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-blockchain = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-consensus-babe = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-core = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-finality-grandpa = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-runtime = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-timestamp = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-transaction-storage-proof = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
-sp-trie = { git = "https://github.com/yahortsaryk/substrate.git", branch = "polkadot-v0.9.33-wasmi-exp" }
+node-primitives = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+pallet-im-online = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-authority-discovery = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-basic-authorship = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-chain-spec = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-client-api = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-consensus = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-consensus-babe = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-consensus-slots = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-consensus-uncles = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-executor = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-finality-grandpa = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-network = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-network-common = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-rpc = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-service = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-sync-state-rpc = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-sysinfo = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-telemetry = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sc-transaction-pool = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-api = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-authority-discovery = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-authorship = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-blockchain = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-consensus-babe = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-core = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-finality-grandpa = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-runtime = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-timestamp = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-transaction-storage-proof = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-trie = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
 
 # Local
 cere-client = { path = "../client", default-features = false, optional = true }
