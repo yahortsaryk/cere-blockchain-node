@@ -13,10 +13,10 @@ crate-type = ["cdylib", "rlib"]
 
 [dependencies]
 clap = { version = "4.0.15", features = ["derive"], optional = true }
-frame-benchmarking-cli = { git = "https://github.com/yahortsaryk/substrate.git", optional = true, rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sc-cli = { git = "https://github.com/yahortsaryk/substrate.git", optional = true, rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sc-service = { git = "https://github.com/yahortsaryk/substrate.git", optional = true, rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-try-runtime-cli = { git = "https://github.com/yahortsaryk/substrate.git", optional = true, rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+frame-benchmarking-cli = { git = "https://github.com/yahortsaryk/substrate.git", optional = true, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sc-cli = { git = "https://github.com/yahortsaryk/substrate.git", optional = true, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sc-service = { git = "https://github.com/yahortsaryk/substrate.git", optional = true, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+try-runtime-cli = { git = "https://github.com/yahortsaryk/substrate.git", optional = true, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
 url = "2.4.1"
 
 # Local
@@ -24,7 +24,7 @@ cere-client = { path = "../node/client", optional = true }
 cere-service = { path = "../node/service", default-features = false, optional = true }
 
 [build-dependencies]
-substrate-build-script-utils = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+substrate-build-script-utils = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
 
 [features]
 default = ["cli", "cere-native"]

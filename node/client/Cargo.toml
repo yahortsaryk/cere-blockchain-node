@@ -4,29 +4,29 @@ version = "4.8.4"
 edition = "2021"
 
 [dependencies]
-frame-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-frame-system = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-frame-system-rpc-runtime-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-node-primitives = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-pallet-transaction-payment = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-pallet-transaction-payment-rpc-runtime-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sc-client-api = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sc-executor = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sc-service = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-api = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-authority-discovery = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-block-builder = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-blockchain = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-consensus = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-consensus-babe = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-finality-grandpa = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-inherents = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-offchain = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-runtime = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-session = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-storage = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-timestamp = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-transaction-pool = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+frame-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+frame-system = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+frame-system-rpc-runtime-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+node-primitives = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+pallet-transaction-payment = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+pallet-transaction-payment-rpc-runtime-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sc-client-api = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sc-executor = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sc-service = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-api = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-authority-discovery = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-block-builder = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-blockchain = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-consensus = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-consensus-babe = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-finality-grandpa = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-inherents = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-offchain = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-runtime = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-session = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-storage = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-timestamp = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-transaction-pool = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
 
 # Local
 cere-dev-runtime = { path = "../../runtime/cere-dev", optional = true }

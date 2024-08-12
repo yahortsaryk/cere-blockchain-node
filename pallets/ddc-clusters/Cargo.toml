@@ -7,27 +7,27 @@ edition = "2021"
 codec = { package = "parity-scale-codec", version = "3.1.5", default-features = false, features = ["derive"] }
 ddc-primitives = { version = "4.8.4", default-features = false, path = "../../primitives" }
 ddc-traits = { version = "4.8.4", default-features = false, path = "../../traits" }
-frame-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c", optional = true }
-frame-support = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-frame-system = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+frame-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929", optional = true }
+frame-support = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+frame-system = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
 hex-literal = "^0.3.1"
-pallet-contracts = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+pallet-contracts = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
 pallet-ddc-nodes = { version = "4.7.0", default-features = false, path = "../ddc-nodes" }
 scale-info = { version = "2.1.2", default-features = false, features = ["derive"] }
 serde = { version = "1.0.136", default-features = false, features = ["derive"], optional = true }
-sp-runtime = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-std = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+sp-runtime = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-std = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
 
 [dev-dependencies]
-frame-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+frame-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
 hex-literal = "^0.3.1"
-pallet-balances = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-pallet-randomness-collective-flip = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-pallet-timestamp = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-core = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-io = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-sp-tracing = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
-substrate-test-utils = { git = "https://github.com/yahortsaryk/substrate.git", rev = "aa62c739ab004a900d54f738c5e5a25f492fe07c" }
+pallet-balances = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+pallet-randomness-collective-flip = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+pallet-timestamp = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-core = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-io = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+sp-tracing = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+substrate-test-utils = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
 
 [features]
 default = ["std"]
