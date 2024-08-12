@@ -20,75 +20,75 @@ scale-info = { version = "2.1.2", default-features = false, features = ["derive"
 static_assertions = "1.1.0"
 
 # primitives
-node-primitives = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-authority-discovery = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-block-builder = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929", default-features = false, version = "4.0.0-dev" }
-sp-consensus-babe = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-core = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-inherents = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-io = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-offchain = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-runtime = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-session = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-staking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-std = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-transaction-pool = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-version = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+node-primitives = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-authority-discovery = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-block-builder = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0", default-features = false, version = "4.0.0-dev" }
+sp-consensus-babe = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-core = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-inherents = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-io = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-offchain = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-runtime = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-session = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-staking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-std = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-transaction-pool = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-version = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
 
 # frame dependencies
-frame-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929", optional = true }
-frame-election-provider-support = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-frame-executive = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-frame-support = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-frame-system = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-frame-system-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929", optional = true }
-frame-system-rpc-runtime-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-frame-try-runtime = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929", optional = true }
-pallet-authority-discovery = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-authorship = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-babe = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-bags-list = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-balances = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-bounties = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+frame-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0", optional = true }
+frame-election-provider-support = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+frame-executive = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+frame-support = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+frame-system = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+frame-system-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0", optional = true }
+frame-system-rpc-runtime-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+frame-try-runtime = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0", optional = true }
+pallet-authority-discovery = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-authorship = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-babe = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-bags-list = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-balances = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-bounties = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
 pallet-chainbridge = { version = "4.8.4", default-features = false, path = "../../pallets/chainbridge" }
-pallet-child-bounties = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-collective = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-contracts = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-contracts-primitives = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-democracy = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-election-provider-multi-phase = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-election-provider-support-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929", optional = true }
-pallet-elections-phragmen = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-fast-unstake = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-grandpa = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-identity = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-im-online = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-indices = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-membership = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-multisig = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-nomination-pools = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-nomination-pools-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, optional = true, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-nomination-pools-runtime-api = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-offences = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-offences-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929", default-features = false, optional = true }
-pallet-proxy = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-randomness-collective-flip = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-recovery = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-scheduler = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-session = { features = ["historical"], git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929", default-features = false }
-pallet-session-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929", default-features = false, optional = true }
-pallet-society = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-staking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-staking-reward-curve = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-sudo = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-timestamp = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-tips = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-transaction-payment = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-transaction-payment-rpc-runtime-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-treasury = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-utility = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-vesting = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+pallet-child-bounties = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-collective = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-contracts = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-contracts-primitives = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-democracy = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-election-provider-multi-phase = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-election-provider-support-benchmarking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0", optional = true }
+pallet-elections-phragmen = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-fast-unstake = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-grandpa = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-identity = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-im-online = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-indices = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-membership = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-multisig = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-nomination-pools = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-nomination-pools-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, optional = true, rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-nomination-pools-runtime-api = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-offences = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-offences-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0", default-features = false, optional = true }
+pallet-proxy = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-randomness-collective-flip = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-recovery = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-scheduler = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-session = { features = ["historical"], git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0", default-features = false }
+pallet-session-benchmarking = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0", default-features = false, optional = true }
+pallet-society = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-staking = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-staking-reward-curve = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-sudo = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-timestamp = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-tips = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-transaction-payment = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-transaction-payment-rpc-runtime-api = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-treasury = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-utility = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-vesting = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
 
 # cere dependencies
 cere-runtime-common = { path = "../common", default-features = false }
@@ -103,7 +103,7 @@ pallet-erc20 = { version = "4.8.4", default-features = false, path = "../../pall
 pallet-erc721 = { version = "4.8.4", default-features = false, path = "../../pallets/erc721" }
 
 [build-dependencies]
-substrate-wasm-builder = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+substrate-wasm-builder = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
 
 [features]
 default = ["std"]

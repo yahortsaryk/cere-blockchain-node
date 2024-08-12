@@ -9,37 +9,37 @@ jsonrpsee = { version = "0.15.1", features = ["server"] }
 rand = "0.8"
 serde = { version = "1.0.136", features = ["derive"] }
 
-node-primitives = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-pallet-im-online = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-authority-discovery = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-basic-authorship = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-chain-spec = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-client-api = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-consensus = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-consensus-babe = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-consensus-slots = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-consensus-uncles = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-executor = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-finality-grandpa = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-network = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-network-common = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-rpc = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-service = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-sync-state-rpc = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-sysinfo = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-telemetry = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sc-transaction-pool = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-api = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-authority-discovery = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-authorship = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-blockchain = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-consensus-babe = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-core = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-finality-grandpa = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-runtime = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-timestamp = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-transaction-storage-proof = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-trie = { git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+node-primitives = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+pallet-im-online = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-authority-discovery = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-basic-authorship = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-chain-spec = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-client-api = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-consensus = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-consensus-babe = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-consensus-slots = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-consensus-uncles = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-executor = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-finality-grandpa = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-network = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-network-common = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-rpc = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-service = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-sync-state-rpc = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-sysinfo = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-telemetry = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sc-transaction-pool = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-api = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-authority-discovery = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-authorship = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-blockchain = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-consensus-babe = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-core = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-finality-grandpa = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-runtime = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-timestamp = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-transaction-storage-proof = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-trie = { git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
 
 # Local
 cere-client = { path = "../client", default-features = false, optional = true }

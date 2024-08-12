@@ -10,7 +10,7 @@ no_std = []
 std = []
 
 [dependencies]
-frame-support = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-node-primitives = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-core = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
-sp-runtime = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+frame-support = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "708deee039adadd94e527a779903daff7944bdc0" }
+node-primitives = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-core = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "708deee039adadd94e527a779903daff7944bdc0" }
+sp-runtime = { git = "https://github.com/yahortsaryk/substrate.git", default-features = false, rev = "708deee039adadd94e527a779903daff7944bdc0" }

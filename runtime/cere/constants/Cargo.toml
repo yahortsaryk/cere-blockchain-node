@@ -5,7 +5,7 @@ authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2021"
 
 [dependencies]
-node-primitives = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "18c32ed818d8d03671398b23b48ac77db47f7929" }
+node-primitives = { default-features = false, git = "https://github.com/yahortsaryk/substrate.git", rev = "708deee039adadd94e527a779903daff7944bdc0" }
 
 [features]
 default = ["std"]
